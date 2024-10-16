@@ -70,6 +70,25 @@
     }
 }
 
+@media screen and (device-width: 360px) and (min-device-height: 540px) and (-webkit-device-pixel-ratio: 3) {
+    #quote{
+    
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
+    
+    
+    
+    #author{
+        margin-top: 5%;
+        font-family: 'Raleway';
+        font-size: 20px;
+    }
+}
+
+
 
 /* Media query for iPhone 12 to iPhone 15 models */
 @media only screen 
@@ -81,7 +100,7 @@
     
         font-family: 'Heebo', sans-serif;
         font-family: 'Open Sans', sans-serif;
-        font-size: 35px;
+        font-size: 30px;
         padding-bottom: 5%;
     }
     
@@ -90,10 +109,27 @@
     #author{
         margin-top: 5%;
         font-family: 'Raleway';
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
     
+@media only screen and (min-device-width: 20em) and (max-device-width: 30em){
+    #quote{
+    
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+        padding-bottom: 5%;
+    }
+    
+    
+    
+    #author{
+        margin-top: 5%;
+        font-family: 'Raleway';
+        font-size: 20px;
+    }
+}
   
   
