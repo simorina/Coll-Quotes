@@ -35,7 +35,7 @@ fetch('https://raw.githubusercontent.com/AtaGowani/daily-motivation/refs/heads/m
         a.innerHTML = "~ " + data[rnd].author
         
     }
-    setInterval(loadQuote,5000)
+    setInterval(loadQuote,7800)
 })
 .catch(function () {
     this.dataError = true;

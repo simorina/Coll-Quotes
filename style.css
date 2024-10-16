@@ -69,3 +69,31 @@
        
     }
 }
+
+
+/* Media query for iPhone 12 to iPhone 15 models */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #quote{
+    
+        font-family: 'Heebo', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        padding-bottom: 5%;
+    }
+    
+    
+    
+    #author{
+        margin-top: 5%;
+        font-family: 'Raleway';
+        font-size: 25px;
+    }
+}
+
+    
+  
+  
